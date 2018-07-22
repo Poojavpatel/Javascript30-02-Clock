@@ -17,9 +17,13 @@ img{
 body{
     background: grey;
 }
+.fullcontainer{
+    width: 100%;
+    height: auto;
+}
 .clock{
-    width:50vh;
-    height:50vh;
+    width:70vw;
+    height: 70vw;
     background:white;
     display: flex;
 }
@@ -27,7 +31,7 @@ body{
     width: 80%;
     height: 80%;
     border-radius: 50%;
-    background-color: black;
+    background-color:#141215;
     margin: auto;
     display: flex;
 }
@@ -35,7 +39,7 @@ body{
     width: 34%;
     height: 34%;
     border-radius: 50%;
-    background-color: white;
+    background-color: #E6E3E3;
     margin: auto;
     display: flex;
 }
@@ -43,6 +47,37 @@ body{
     width: 40%;
     height: 40%;
     border-radius: 50%;
-    background-color:grey;
+    background-color:#E6E3E3;
     margin: auto;
+    display: flex;
+    border : 1.5px solid #b4b4b4;
+    position: relative;
+}
+.hand{
+    width: 190%;
+    height: 20%;
+    background: red;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-50%) rotate(327deg);
+    transform-origin: left;
+    transition: all 0.05s cubic-bezier(0.1 ,2.7 ,0.58 ,1);
+}
+.hour{
+    width: 190%;
+    height: 20%;
+    transform: translate(0%,-50%) rotate(327deg);
+}
+.min{
+    width: 300%;
+    height: 20%;
+    transform: translate(0%,-50%) rotate(192deg);
+}
+.sec{
+    width: 180%;
+    height: 6%;
+    background: grey;
+    transform: translate(0%,-50%) rotate(89deg);
 }
