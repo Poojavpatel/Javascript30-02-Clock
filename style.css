@@ -61,23 +61,20 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(0%,-50%) rotate(327deg);
+    transform: translate(0%,-50%) rotate(-90deg);
     transform-origin: left;
     transition: all 0.05s cubic-bezier(0.1 ,2.7 ,0.58 ,1);
 }
 .hour{
     width: 190%;
     height: 20%;
-    transform: translate(0%,-50%) rotate(327deg);
 }
 .min{
     width: 300%;
     height: 20%;
-    transform: translate(0%,-50%) rotate(192deg);
 }
 .sec{
     width: 180%;
     height: 6%;
     background: grey;
-    transform: translate(0%,-50%) rotate(89deg);
 }
