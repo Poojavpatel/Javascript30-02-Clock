@@ -14,18 +14,18 @@ img{
 	max-width: 100%;             
 	height: auto;
 }
-body{
-    background: grey;
-}
 .fullcontainer{
     width: 100%;
+    min-height: 100vh;
     height: auto;
+    display: flex;
 }
 .clock{
-    width:70vw;
-    height: 70vw;
-    background:white;
+    width:50vh;
+    height: 50vh;
+    background:#ffffff;
     display: flex;
+    margin: auto;
 }
 .disk1{
     width: 80%;
@@ -77,4 +77,12 @@ body{
     width: 180%;
     height: 6%;
     background: grey;
+}
+/*************************MEDIAQUERIES*************************/
+
+@media screen and (max-width:375px){
+    .clock{
+        width:80vw;
+        height:80vw;
+    }
 }
