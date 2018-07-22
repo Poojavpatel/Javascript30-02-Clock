@@ -14,3 +14,35 @@ img{
 	max-width: 100%;             
 	height: auto;
 }
+body{
+    background: grey;
+}
+.clock{
+    width:50vh;
+    height:50vh;
+    background:white;
+    display: flex;
+}
+.disk1{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+    display: flex;
+}
+.disk2{
+    width: 34%;
+    height: 34%;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+.disk3{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background-color:grey;
+    margin: auto;
+}
